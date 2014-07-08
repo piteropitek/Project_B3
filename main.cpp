@@ -1,9 +1,9 @@
-#include <iostream>
 #include "UnitTest++.h"
+#include <iostream>
 
-using namespace std;
-
-int main()
+int main ( )
 {
-    return UnitTest::RunAllTests();
+    //std::cout << true * 20 + true / false * 100 << std::endl ;
+    return UnitTest::RunAllTests ( ) ;
+
 }
